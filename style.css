@@ -9,7 +9,16 @@
     margin: auto;
 }
 
+.wrapper > *{
+    margin-top: 20px;
+}
+
 header{
     background-color: #E579E6;
     height:100px;
+}
+
+section{
+    background-color: #E2D67A;
+    height: 300px;
 }
