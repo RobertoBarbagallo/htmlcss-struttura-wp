@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: #E579E6;
+    height:100px;
+}
