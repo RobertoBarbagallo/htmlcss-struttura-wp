@@ -9,13 +9,8 @@
     margin: auto;
 }
 
-.wrapper footer:last-child {
-     background-color: #8801FE;
-     height: 100px;
-     margin-top: 5px;
-}
 
-.wrapper > * {
+.wrapper > *:not(footer){
     margin-top: 20px;
 }
 
@@ -71,4 +66,9 @@ article{
 }
 
 
+footer{
+    background-color: #8801FE;
+    height: 100px;
+    margin-top: 5px;
+}
 
